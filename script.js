@@ -1,4 +1,4 @@
-const Challenge = document.querySelectorAll(".overlay");
+const Challenge = document.querySelectorAll(".Challenge");
 const filter = document.getElementById("filter");
 
 filter.addEventListener("input", (e) => filterData(e.target.value));
